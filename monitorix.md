@@ -4,6 +4,8 @@ Monitorix is a free, open source, lightweight system monitoring tool designed to
 
 ## Instalacia na Raspberry Pi
 
-* wget https://www.monitorix.org/monitorix_3.10.1-izzy1_all.deb #potrebne skontrolovat aktualnost
-* sudo dpkg -i monitorix_3.10.1-izzy1_all.deb
-* sudo apt --fix-broken install
+``` 
+wget https://www.monitorix.org/monitorix_3.10.1-izzy1_all.deb #potrebne skontrolovat aktualnost
+sudo dpkg -i monitorix_3.10.1-izzy1_all.deb
+sudo apt --fix-broken install
+``` 
