@@ -21,3 +21,5 @@ systemctl enable monitorix #zapne servis aby sa spustal po starte automaticky
 ``` 
 
 Uz len staci ist na stranku http://XXX.XXX.XXX.XXX:8080/monitorix kde XXX.XXX.XXX.XXX je ip adresa stroja na ktorom mame spusteny monitorix.
+
+Konfigurak `/etc/monitorix/monitorix.conf`
