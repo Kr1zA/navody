@@ -47,3 +47,6 @@ Ak chceme monitorovat z jednej stranky viac zariadeni pouzijeme jedno zo zariade
 </multihost>
 ``` 
 
+Nastavovane podla:
+https://www.monitorix.org/documentation.html
+https://www.monitorix.org/faq.html
