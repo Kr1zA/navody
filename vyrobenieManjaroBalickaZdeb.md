@@ -1,4 +1,4 @@
-## Ako vyrobit balicek pre manjaro/Arch z deb balicka a nemat problem so zavislostami?\
+## Ako vyrobit balicek pre manjaro/Arch z deb balicka a nemat problem so zavislostami?
 
 Zazracny program debtap.
 
