@@ -35,7 +35,10 @@ docker exec -it $ID bash # samotne pripojenie
 ```
 
 * nainstalujeme docker compose - aplikacia na spravu a vytvaraniekontainerov:
- * daco
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
 
 ```
 sudo pacman -S docker-compose
