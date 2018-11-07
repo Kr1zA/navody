@@ -35,9 +35,7 @@ docker exec -it $ID bash # samotne pripojenie
 ```
 
 * nainstalujeme docker compose - aplikacia na spravu a vytvaraniekontainerov:
-* Item 1
-* Item 2
-  * Item 2a
+  * daco
   * Item 2b
 
 ```
