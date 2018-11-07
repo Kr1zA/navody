@@ -35,8 +35,6 @@ docker exec -it $ID bash # samotne pripojenie
 ```
 
 * nainstalujeme docker compose - aplikacia na spravu a vytvaraniekontainerov:
-  * daco
-  * Item 2b
 
 ```
 sudo pacman -S docker-compose
@@ -44,45 +42,44 @@ sudo pacman -S docker-compose
 
   * pomocou docker compose vytvorime containery, najprv vytvorime zlozku s konfigurakmi:
 
-```
-mkdir docker
-mkdir docker
-mkdir mongo
-cd mongo/
-vim docker-compose.yml # alebo iny oblubeny editor
-```
-  * daco
-  * Item 2b
+  ```
+  mkdir docker
+  mkdir docker
+  mkdir mongo
+  cd mongo/
+  vim docker-compose.yml # alebo iny oblubeny editor
+  ```
+  
   * do otvoreneho suboru vlozime nasledovne: 
   
-```
-version: "3.4"
-services:
-        mongo:
-                image: mongo # nainstalujeme mongodb
-                # restart: always # po klaknuti by sa restartovat
-                ports:
-                        - 27017:27017
-                environment: # prihlasovanie udaje
-                        MONGO_INITDB_ROOT_USERNAME: root
-                        MONGO_INITDB_ROOT_PASSWORD: example
+  ```
+  version: "3.4"
+  services:
+          mongo:
+                  image: mongo # nainstalujeme mongodb
+                  # restart: always # po klaknuti by sa restartovat
+                  ports:
+                          - 27017:27017
+                  environment: # prihlasovanie udaje
+                          MONGO_INITDB_ROOT_USERNAME: root
+                          MONGO_INITDB_ROOT_PASSWORD: example
 
-        mongo-express:
-                image: mongo-express # nainstalujeme mongodb veboveho klienta - nieco ako phpmyadmin
-                # restart: always # po klaknuti by sa restartovat
-                ports:
-                        - 8081:8081
-                environment: # prihlasovanie udaje
-                        ME_CONFIG_MONGODB_ADMINUSERNAME: root
-                        ME_CONFIG_MONGODB_ADMINPASSWORD: example
+          mongo-express:
+                  image: mongo-express # nainstalujeme mongodb veboveho klienta - nieco ako phpmyadmin
+                  # restart: always # po klaknuti by sa restartovat
+                  ports:
+                          - 8081:8081
+                  environment: # prihlasovanie udaje
+                          ME_CONFIG_MONGODB_ADMINUSERNAME: root
+                          ME_CONFIG_MONGODB_ADMINPASSWORD: example
 
-```
+  ```
 
   * ked sa nachadzame vzlozke s konfigurakom spustime nasledovny prikaz:
   
-```
-docker-compose up -d
-```
+  ```
+  docker-compose up -d
+  ```
 
   * nasledovnymi prikazmi vieme pozriet co bezi, stopnut co sme spustili:
   
