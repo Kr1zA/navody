@@ -35,13 +35,11 @@ docker exec -it $ID bash # samotne pripojenie
 ```
 
 * nainstalujeme docker compose - aplikacia na spravu a vytvaraniekontainerov:
-  * Item 2a
-  * Item 2b
+  
   ```
   sudo pacman -S docker-compose
   ```
-  * Item 2a
-  * Item 2b
+ 
   * pomocou docker compose vytvorime containery, najprv vytvorime zlozku s konfigurakmi:
 
   ```
