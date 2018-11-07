@@ -37,7 +37,7 @@ mkdir mongo
 cd mongo/
 vim docker-compose.yml # alebo iny oblubeny editor
 ```
-  * do otvoreneho suboru vlozime nasledovne: 
+  ** do otvoreneho suboru vlozime nasledovne: 
 ```
 version: "3.4"
 services:
