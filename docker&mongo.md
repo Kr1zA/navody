@@ -8,7 +8,7 @@ sudo systemctl start docker
 * vytvorime skupinu docker a pridame sa tam:
 ```
 sudo groupadd docker
-sudo usermon -aG docker kriza
+sudo usermon -aG docker kriza # kriza je nazov mojho konta/pouzivatela
 ```
 * spravnost vieme otestovat:
 ```
