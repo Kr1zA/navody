@@ -51,7 +51,8 @@ mkdir mongo
 cd mongo/
 vim docker-compose.yml # alebo iny oblubeny editor
 ```
-
+  * daco
+  * Item 2b
   * do otvoreneho suboru vlozime nasledovne: 
   
 ```
