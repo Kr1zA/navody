@@ -11,7 +11,7 @@ sudo systemctl start docker
 
 ```
 sudo groupadd docker
-sudo usermon -aG docker kriza # kriza je nazov mojho konta/pouzivatela
+sudo usermod -aG docker kriza # kriza je nazov mojho konta/pouzivatela
 ```
 
 * spravnost vieme otestovat:
