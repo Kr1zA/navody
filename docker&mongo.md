@@ -6,6 +6,7 @@
 sudo pacman -S docker
 sudo systemctl start docker
 ```
+Pre ubuntu: https://docs.docker.com/install/linux/docker-ce/ubuntu/#set-up-the-repository
 
 * vytvorime skupinu docker a pridame sa tam:
 
