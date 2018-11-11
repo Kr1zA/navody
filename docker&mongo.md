@@ -63,7 +63,7 @@ docker exec -it $ID bash # samotne pripojenie
                           - 27017:27017
                   environment: # prihlasovanie udaje
                           MONGO_INITDB_ROOT_USERNAME: root
-                          MONGO_INITDB_ROOT_PASSWORD: zleHeslo
+                          MONGO_INITDB_ROOT_PASSWORD: example
 
           mongo-express:
                   image: mongo-express # nainstalujeme mongodb veboveho klienta - nieco ako phpmyadmin
@@ -72,9 +72,9 @@ docker exec -it $ID bash # samotne pripojenie
                           - 8081:8081
                   environment: # prihlasovanie udaje
                           ME_CONFIG_MONGODB_ADMINUSERNAME: root
-                          ME_CONFIG_MONGODB_ADMINPASSWORD: zleHeslo
+                          ME_CONFIG_MONGODB_ADMINPASSWORD: example
                           ME_CONFIG_BASICAUTH_USERNAME: root
-                          ME_CONFIG_BASICAUTH_PASSWORD: zleHeslo
+                          ME_CONFIG_BASICAUTH_PASSWORD: example
   ```
 
   * ked sa nachadzame vzlozke s konfigurakom spustime nasledovny prikaz:
