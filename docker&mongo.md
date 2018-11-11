@@ -54,28 +54,27 @@ docker exec -it $ID bash # samotne pripojenie
   * do otvoreneho suboru vlozime nasledovne: 
   
   ```
-version: "3.4"
-services:
-        mongo:
-                image: mongo # nainstalujeme mongodb
-                # restart: always # po klaknuti by sa restartovat
-                ports:
-                        - 27017:27017
-                environment: # prihlasovanie udaje
-                        MONGO_INITDB_ROOT_USERNAME: root
-                        MONGO_INITDB_ROOT_PASSWORD: zleHeslo
+  version: "3.4"
+  services:
+          mongo:
+                  image: mongo # nainstalujeme mongodb
+                  # restart: always # po klaknuti by sa restartovat
+                  ports:
+                          - 27017:27017
+                  environment: # prihlasovanie udaje
+                          MONGO_INITDB_ROOT_USERNAME: root
+                          MONGO_INITDB_ROOT_PASSWORD: zleHeslo
 
-        mongo-express:
-                image: mongo-express # nainstalujeme mongodb veboveho klienta - nieco ako phpmyadmin
-                # restart: always # po klaknuti by sa restartovat
-                ports:
-                        - 8081:8081
-                environment: # prihlasovanie udaje
-                        ME_CONFIG_MONGODB_ADMINUSERNAME: root
-                        ME_CONFIG_MONGODB_ADMINPASSWORD: zleHeslo
-                        ME_CONFIG_BASICAUTH_USERNAME: root
-                        ME_CONFIG_BASICAUTH_PASSWORD: zleHeslo
-
+          mongo-express:
+                  image: mongo-express # nainstalujeme mongodb veboveho klienta - nieco ako phpmyadmin
+                  # restart: always # po klaknuti by sa restartovat
+                  ports:
+                          - 8081:8081
+                  environment: # prihlasovanie udaje
+                          ME_CONFIG_MONGODB_ADMINUSERNAME: root
+                          ME_CONFIG_MONGODB_ADMINPASSWORD: zleHeslo
+                          ME_CONFIG_BASICAUTH_USERNAME: root
+                          ME_CONFIG_BASICAUTH_PASSWORD: zleHeslo
   ```
 
   * ked sa nachadzame vzlozke s konfigurakom spustime nasledovny prikaz:
