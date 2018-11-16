@@ -45,6 +45,7 @@ docker login gitlab.xxx.xxx:4567
 ```
 sudo mv /usr/bin/docker-credential-secretservice /usr/bin/docker-credential-secretservice_x
 ```
-    * zdroj: https://stackoverflow.com/questions/50151833/cannot-login-to-docker-account 
+    * zdroj: 
+    https://stackoverflow.com/questions/50151833/cannot-login-to-docker-account 
 
 * zvysok - stiahnutie a spustenie(radsej docker-compose) je popisany tu: https://gitlab.science.upjs.sk/help/user/project/container_registry
