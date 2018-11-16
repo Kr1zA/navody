@@ -48,3 +48,6 @@ sudo mv /usr/bin/docker-credential-secretservice /usr/bin/docker-credential-secr
    * zdroj: https://stackoverflow.com/questions/50151833/cannot-login-to-docker-account
 
 * zvysok - stiahnutie a spustenie(radsej docker-compose) je popisany tu: https://gitlab.science.upjs.sk/help/user/project/container_registry
+
+Zdroj okrem ineho:
+https://gitlab.science.upjs.sk/rstana/millionaireapp/container_registry
