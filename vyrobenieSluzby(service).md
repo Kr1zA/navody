@@ -20,7 +20,7 @@ WantedBy=multi-user.target
 Nasledne:
 
 ```
-sudo systemctl deamon-reload
+sudo systemctl daemon-reload
 sudo systemctl start citacka
 sudo systemctl status citacka
 sudo systemctl enable citacka
