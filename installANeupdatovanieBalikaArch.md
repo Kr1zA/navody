@@ -3,7 +3,7 @@
 ```
 sudo pacman -U urlBalika
 ```
-Url napr (odtialto)[https://archive.archlinux.org/]
+Url napr [odtialto](https://archive.archlinux.org/)
 
 ## Neaktualizovanie balika
 
