@@ -5,7 +5,7 @@ Zazracny program debtap.
 * nainstalujeme debtap:
 
 ```
-yaourt -S deptab
+yaourt -S debtap
 ```
 
 * nasledne prerobime deb balicek na manjaro/Arch balicek:
